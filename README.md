@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# YLD Frontend Code Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We'd like you to complete a short programming exercise, which we would prefer if you completed by using React. It
+shouldn't take longer than 90 mins to complete. Hopefully you will find the
+challenge fun!
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Good Luck!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+We'd like to implement you the following pin pad.
+![](pinpad.png)
 
-### `npm test`
+# Requirements
+   * Buttons should work with either touch or clicks
+   * The pin should be hidden except for the last number
+   * Hardcode somewhere in the code right PIN (which eventually could be read from an API)
+   * The pin is always max 4 digits long 
+   * When the user inputs 4 digits the pin is checked
+   * If the inserted PIN is correct the screen displays OK and the screen is cleared
+   * If the inserted PIN is wrong the screen displays ERROR and the screen is cleared
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bonus requirement
+   * After 3 wrong attempts the pinpad locks for 30 secs, showing `LOCKED` on the display
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design requirement
+   * The attached image isn't a design, make it look nice at will
+   * It should be used on Mobile or Desktop
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Notes:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* To save time we suggest you use a boilerplate for [React](https://github.com/facebookincubator/create-react-app) or [React Native](https://github.com/react-community/create-react-native-app), depending on what you're using to do your test.
+* Please submit your solution, your `.git` folder, and any notes as a tarball or zip file and name
+the file with your full name.
+* Do not publish your solution
+* Let us know how to run your solution and its tests
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
