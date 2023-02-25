@@ -1,0 +1,6 @@
+.screen-container{
+    border:1px solid blue;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}

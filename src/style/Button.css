@@ -1,0 +1,7 @@
+.button-container{
+    border: 1px solid blue;
+    width:calc((100% - 10px)/3);
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}

@@ -1,0 +1,8 @@
+.pad-container{
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    width:70vw;
+    justify-content: center;
+    gap:5px
+}

@@ -1,17 +1,19 @@
 import React from 'react'
 import '../style/Pad.css'
-import Button from './Button'
+import Row from './Row'
 
-function Pad({row}){
+function Pad({rows}){
     return(
-        <>
-            {row.map((e) => {
-                return(
-                    <Button key={e} button={e}>
-                    </Button>
-                )
-            })}
-        </>
+        <div className="pad-container">
+            {
+                rows.map((row) => {
+                    return(
+                    <Row key={row.join("")} row={row}>
+                    </Row>
+                    )
+                })
+            }  
+        </div>
     )
 }
 

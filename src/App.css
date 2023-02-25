@@ -1,0 +1,14 @@
+.app-container{
+
+}
+
+.app-container-pad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  width:90vw;
+  margin:auto;
+  height:100vh;
+}
