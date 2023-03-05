@@ -1,11 +1,11 @@
 import React from 'react'
 import '../style/Button.css'
 
-function Button({button}){
+function Button({button, clickButton3, block}){
     return(
-        <div className='button-container'>
+        <button className='button-container' onClick={() => clickButton3(button)} disabled={block}>
             {button}
-        </div>
+        </button>
     )
 }
 export default Button;
